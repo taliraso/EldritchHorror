@@ -464,7 +464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 620297771}
 --- !u!20 &112429997
 Camera:
   m_ObjectHideFlags: 0
@@ -4094,7 +4094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 620297771}
 --- !u!114 &519420030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6448,6 +6448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 695309999}
   - component: {fileID: 695309998}
+  - component: {fileID: 695310000}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -6470,7 +6471,10 @@ MonoBehaviour:
   LoadEvent: 1
   UnloadEvent: 2
   Banks:
-  - Master
+  - UI
+  - SFX
+  - AMB
+  - MX
   CollisionTag: 
   PreloadSamples: 0
 --- !u!4 &695309999
@@ -6483,10 +6487,23 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 13.230872, y: -4.447736, z: -45.573795}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 857601343}
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &695310000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695309997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dc032f6263dbb4a87e5f33c629f8cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703849121
 GameObject:
   m_ObjectHideFlags: 0
@@ -6500,7 +6517,6 @@ GameObject:
   - component: {fileID: 703849124}
   - component: {fileID: 703849125}
   - component: {fileID: 703849126}
-  - component: {fileID: 703849127}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -6533,8 +6549,6 @@ MonoBehaviour:
   textBuildSpeed: 0.05
   isBuilding: 0
   extraRoom: 0.25
-  beepHigh: {fileID: 8300000, guid: 1d54021a299ca7845928025089307dd2, type: 3}
-  beepLow: {fileID: 8300000, guid: f1faa8447f847504b82686ffda0dda5c, type: 3}
   spawnStartingFade: 0
   startingFadeDuration: 0
   plantAlive: {fileID: 810476016}
@@ -6758,36 +6772,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showCursor: 0
---- !u!114 &703849127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703849121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 914921254
-      Data2: 1328104685
-      Data3: 618333882
-      Data4: -1778463879
-    Path: event:/TEST_Typing_high
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &715829411
 GameObject:
   m_ObjectHideFlags: 0
@@ -7624,7 +7608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 620297771}
 --- !u!20 &802657107
 Camera:
   m_ObjectHideFlags: 0
@@ -9231,6 +9215,182 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &857601342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 857601343}
+  - component: {fileID: 857601344}
+  m_Layer: 0
+  m_Name: FMODEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &857601343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857601342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695309999}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &857601344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857601342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18089ddf2602ed84c88609f501443a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <textboxAudio>k__BackingField:
+    Guid:
+      Data1: -530282060
+      Data2: 1122350919
+      Data3: 680404381
+      Data4: -1966532347
+    Path: event:/Typing_low
+  <speechBubbleAudio>k__BackingField:
+    Guid:
+      Data1: 1141706488
+      Data2: 1147589099
+      Data3: 909347974
+      Data4: -1873971309
+    Path: event:/Typing_high
+  <radioTextAudio>k__BackingField:
+    Guid:
+      Data1: 1141706488
+      Data2: 1147589099
+      Data3: 909347974
+      Data4: -1873971309
+    Path: event:/Typing_high
+  <audiodogjump>k__BackingField:
+    Guid:
+      Data1: -712343561
+      Data2: 1176665951
+      Data3: 790683043
+      Data4: -355704736
+    Path: event:/Dog_JumpHappy_1_mono
+  <audiodogbark>k__BackingField:
+    Guid:
+      Data1: -447899698
+      Data2: 1128141067
+      Data3: 760709762
+      Data4: -1583537955
+    Path: event:/Dog_Bark_1_mono
+  <audiodoghowl>k__BackingField:
+    Guid:
+      Data1: 1580701679
+      Data2: 1160114381
+      Data3: 1686124209
+      Data4: 1895025154
+    Path: event:/Dog_Howl_1_mono
+  <audiodogslurp>k__BackingField:
+    Guid:
+      Data1: 543971682
+      Data2: 1336488916
+      Data3: 247498153
+      Data4: -364494514
+    Path: event:/Dog_Slurp_1_mono
+  <audiodogwhine>k__BackingField:
+    Guid:
+      Data1: 2047166902
+      Data2: 1257976572
+      Data3: 1655249561
+      Data4: 1000056491
+    Path: event:/Dog_Whine_1_mono
+  <audiodogmunch>k__BackingField:
+    Guid:
+      Data1: 1742847939
+      Data2: 1281970270
+      Data3: 2107981741
+      Data4: 40040801
+    Path: event:/Dog_Munch_1_mono
+  <audiodooruse>k__BackingField:
+    Guid:
+      Data1: 1649124807
+      Data2: 1301315432
+      Data3: 852174775
+      Data4: 1288907614
+    Path: event:/PLAYER_Pick up_1_mono
+  <audioplayeroutofbed>k__BackingField:
+    Guid:
+      Data1: -1528999680
+      Data2: 1107697157
+      Data3: -1388833347
+      Data4: 932242628
+    Path: event:/PLAYER_Out of bed_1_mono
+  <audioaura>k__BackingField:
+    Guid:
+      Data1: 1492568377
+      Data2: 1332810223
+      Data3: 108489091
+      Data4: -1540547758
+    Path: event:/Aura_1_mono
+  <audioradioloop>k__BackingField:
+    Guid:
+      Data1: -1734191140
+      Data2: 1281955697
+      Data3: -208849268
+      Data4: -322978744
+    Path: event:/Radio_1_mono
+  <audioscream1>k__BackingField:
+    Guid:
+      Data1: 1012541644
+      Data2: 1138360866
+      Data3: -144649571
+      Data4: -531843130
+    Path: event:/Scream_1_mono
+  <audioscream2>k__BackingField:
+    Guid:
+      Data1: 333786356
+      Data2: 1170346138
+      Data3: -1565668224
+      Data4: 5556752
+    Path: event:/Scream_2_mono
+  <audioplayerthrowball>k__BackingField:
+    Guid:
+      Data1: 1454015003
+      Data2: 1131320192
+      Data3: 419882399
+      Data4: 986961847
+    Path: event:/PLAYER_Throw Ball_1_mono
+  <neutralTheme>k__BackingField:
+    Guid:
+      Data1: 116560889
+      Data2: 1089389582
+      Data3: 1938476469
+      Data4: -830516426
+    Path: event:/Apartment Theme_Loop_v3.0
+  <happyTheme>k__BackingField:
+    Guid:
+      Data1: 967721940
+      Data2: 1083006458
+      Data3: 1617890703
+      Data4: -1392952117
+    Path: event:/Happy Theme 2_Loop_v4.0
+  <sadTheme>k__BackingField:
+    Guid:
+      Data1: -1094885699
+      Data2: 1333086566
+      Data3: 1991899312
+      Data4: -1000603105
+    Path: event:/Creepy Theme_Loop_v3.0
 --- !u!1 &858414227
 GameObject:
   m_ObjectHideFlags: 0
@@ -11360,7 +11520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 620297771}
 --- !u!4 &1134944141
 Transform:
   m_ObjectHideFlags: 0
@@ -14570,7 +14730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 620297771}
 --- !u!20 &1441579315
 Camera:
   m_ObjectHideFlags: 0
