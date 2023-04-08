@@ -11,9 +11,8 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference radioTextAudio { get; private set; }
 
     [field: Header("Music")]
-    [field: SerializeField] public EventReference neutralTheme { get; private set; }
-    [field: SerializeField] public EventReference happyTheme { get; private set; }
-    [field: SerializeField] public EventReference sadTheme { get; private set; }
+
+    [field: SerializeField] public EventReference music { get; private set; }
 
 
     public static FMODEvents instance { get; private set; }

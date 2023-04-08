@@ -34,9 +34,6 @@ public class Manager : MonoBehaviour
     private float bubbleVertSize;
     public float extraRoom = 1;
 
-    //public AudioClip beepHigh;
-    //public AudioClip beepLow;
-
     public bool spawnStartingFade;
     public float startingFadeDuration;
 
@@ -69,12 +66,6 @@ public class Manager : MonoBehaviour
         }
 
         _instance = this;
-        //DontDestroyOnLoad(this.gameObject);
-
-        //textBoxAudio = textBoxContents.GetComponent<AudioSource>();
-        //speechBubbleAudio = speechBubbleContents.GetComponent<AudioSource>();
-        //radioTextAudio = radioTextContents.GetComponent<AudioSource>();
-
     }
 
     private void Start()
@@ -108,6 +99,8 @@ public class Manager : MonoBehaviour
 
             GameObject.Find("SteamManager").GetComponent<SteamManager>().TriggerAchievement("DEAD_PLANT_ACHIEVEMENT");
         }
+
+        
     }
 
     private void LateUpdate()
@@ -223,15 +216,12 @@ public class Manager : MonoBehaviour
                     switch (dialogueType)
                     {
                         case DialogueNode.DIALOGUETYPE.TextBox:
-                            //textBoxAudio.Play();
                             AudioManager.instance.PlayOneShot(FMODEvents.instance.textboxAudio, textBox.transform.position);
                             break;
                         case DialogueNode.DIALOGUETYPE.SpeechBubble:
-                            //speechBubbleAudio.Play();
                             AudioManager.instance.PlayOneShot(FMODEvents.instance.speechBubbleAudio, speechBubble.transform.position);
                             break;
                         case DialogueNode.DIALOGUETYPE.RadioText:
-                            //radioTextAudio.Play();
                             AudioManager.instance.PlayOneShot(FMODEvents.instance.radioTextAudio, radioText.transform.position);
                             break;
                         default:

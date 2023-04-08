@@ -6033,6 +6033,7 @@ GameObject:
   - component: {fileID: 695309999}
   - component: {fileID: 695309998}
   - component: {fileID: 695310000}
+  - component: {fileID: 695310001}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -6089,6 +6090,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96dc032f6263dbb4a87e5f33c629f8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &695310001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695309997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77250e8947262644b2d9d9eec4283ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valence: 1
 --- !u!1 &703849121
 GameObject:
   m_ObjectHideFlags: 0
@@ -8666,27 +8680,13 @@ MonoBehaviour:
       Data3: 909347974
       Data4: -1873971309
     Path: event:/Typing_high
-  <neutralTheme>k__BackingField:
+  <music>k__BackingField:
     Guid:
-      Data1: 116560889
-      Data2: 1089389582
-      Data3: 1938476469
-      Data4: -830516426
-    Path: event:/Apartment Theme_Loop_v3.0
-  <happyTheme>k__BackingField:
-    Guid:
-      Data1: 967721940
-      Data2: 1083006458
-      Data3: 1617890703
-      Data4: -1392952117
-    Path: event:/Happy Theme 2_Loop_v4.0
-  <sadTheme>k__BackingField:
-    Guid:
-      Data1: -1094885699
-      Data2: 1333086566
-      Data3: 1991899312
-      Data4: -1000603105
-    Path: event:/Creepy Theme_Loop_v3.0
+      Data1: -1509164563
+      Data2: 1180001847
+      Data3: 630446492
+      Data4: -1527553156
+    Path: event:/Week3_Mx
 --- !u!1 &858414227
 GameObject:
   m_ObjectHideFlags: 0
@@ -16659,6 +16659,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 695310001}
+        m_TargetAssemblyTypeName: MusicChangeTrigger, Assembly-CSharp
+        m_MethodName: ChangeValence
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Positive_Valence_MX
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!61 &1671363010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17498,6 +17510,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 695310001}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Negative_Valence_MX
+          m_BoolArgument: 1
+        m_CallState: 1
 --- !u!61 &1789800119
 BoxCollider2D:
   m_ObjectHideFlags: 0
