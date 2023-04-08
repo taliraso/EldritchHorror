@@ -9,6 +9,7 @@ using FMODUnity;
 
 public class Interactable : MonoBehaviour
 {
+
     [Header("Interactable Settings")]
     public bool isInteractable = true;
     //private bool PlayerinTrigger = false;
