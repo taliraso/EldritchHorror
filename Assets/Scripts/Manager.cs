@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+
 public class Manager : MonoBehaviour
 {
     private static Manager _instance;
@@ -75,6 +76,7 @@ public class Manager : MonoBehaviour
         textBoxAudio = textBoxContents.GetComponent<AudioSource>();
         speechBubbleAudio = speechBubbleContents.GetComponent<AudioSource>();
         radioTextAudio = radioTextContents.GetComponent<AudioSource>();
+
     }
 
     private void Start()
