@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{56aa821b-9380-436e-9fe5-0619b7d7d33a}">
 		<property name="name">
-			<value>PLAYER_Throw Ball_1_mono</value>
+			<value>ae_player_ball_throw_m</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

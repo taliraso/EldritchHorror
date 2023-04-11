@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{624ba5c7-7f68-4d90-b727-cb325e2bd34c}">
 		<property name="name">
-			<value>PLAYER_Pick up_1_mono</value>
+			<value>ae_player_pick_up_m</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{027da5d4-9c47-484e-bd9d-b1e847de5807}">
 		<property name="name">
-			<value>Phone Ring_1_mono</value>
+			<value>ae_phone_ring_m</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

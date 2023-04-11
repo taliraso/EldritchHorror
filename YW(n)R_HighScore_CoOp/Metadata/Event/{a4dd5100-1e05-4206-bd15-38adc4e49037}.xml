@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a4dd5100-1e05-4206-bd15-38adc4e49037}">
 		<property name="name">
-			<value>PLAYER_Out of bed_1_mono</value>
+			<value>ae_player_out_of_bed_m</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

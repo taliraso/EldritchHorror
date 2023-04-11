@@ -50,7 +50,7 @@ MonoBehaviour:
       Data2: 1301315432
       Data3: 852174775
       Data4: 1288907614
-    Path: event:/PLAYER_Pick up_1_mono
+    Path: event:/ae_player_pick_up_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
       Data2: 1226153105
       Data3: -659064153
       Data4: 624689186
-    Path: event:/Scream_3_mono
+    Path: event:/ae_scream_3_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
       Data2: 1119790352
       Data3: -322123880
       Data4: -4766972
-    Path: event:/Dog Bowl Food_1_mono
+    Path: event:/ae_dog_bowl_food_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
       Data2: 1077507618
       Data3: -1803030081
       Data4: 1118578156
-    Path: event:/PLAnt Water_1_mono
+    Path: event:/ae_player_water_plant_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -294,7 +294,7 @@ MonoBehaviour:
       Data2: 1128141067
       Data3: 760709762
       Data4: -1583537955
-    Path: event:/Dog_Bark_1_mono
+    Path: event:/ae_dog_bark_happy_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
       Data2: 1332146683
       Data3: 1986994342
       Data4: -532222297
-    Path: event:/Door Knock_1_mono
+    Path: event:/ae_door_knock_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
       Data2: 1257976572
       Data3: 1655249561
       Data4: 1000056491
-    Path: event:/Dog_Whine_1_mono
+    Path: event:/ae_dog_whine_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
       Data2: 1099760027
       Data3: 572819336
       Data4: 749668686
-    Path: event:/TV_1_mono
+    Path: event:/ae_tv_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -538,7 +538,7 @@ MonoBehaviour:
       Data2: 1176665951
       Data3: 790683043
       Data4: -355704736
-    Path: event:/Dog_JumpHappy_1_mono
+    Path: event:/ae_dog_jump_happy_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -599,7 +599,7 @@ MonoBehaviour:
       Data2: 1301315432
       Data3: 852174775
       Data4: 1288907614
-    Path: event:/PLAYER_Pick up_1_mono
+    Path: event:/ae_player_pick_up_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -660,7 +660,7 @@ MonoBehaviour:
       Data2: 1336488916
       Data3: 247498153
       Data4: -364494514
-    Path: event:/Dog_Slurp_1_mono
+    Path: event:/ae_dog_slurp_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -721,7 +721,7 @@ MonoBehaviour:
       Data2: 1235173376
       Data3: 863940997
       Data4: 504440544
-    Path: event:/Balcony Wind_1
+    Path: event:/ae_balcony_wind_st
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -782,7 +782,7 @@ MonoBehaviour:
       Data2: 1170346138
       Data3: -1565668224
       Data4: 5556752
-    Path: event:/Scream_2_mono
+    Path: event:/ae_scream_2_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -843,7 +843,7 @@ MonoBehaviour:
       Data2: 1138360866
       Data3: -144649571
       Data4: -531843130
-    Path: event:/Scream_1_mono
+    Path: event:/ae_scream_1_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -904,7 +904,7 @@ MonoBehaviour:
       Data2: 1128141067
       Data3: 760709762
       Data4: -1583537955
-    Path: event:/Dog_Bark_1_mono
+    Path: event:/ae_dog_bark_happy_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -1018,7 +1018,7 @@ MonoBehaviour:
       Data2: 1160114381
       Data3: 1686124209
       Data4: 1895025154
-    Path: event:/Dog_Howl_1_mono
+    Path: event:/ae_dog_howl_happy_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -1099,7 +1099,7 @@ MonoBehaviour:
       Data2: 1180001847
       Data3: 630446492
       Data4: -1527553156
-    Path: event:/Week3_Mx
+    Path: event:/ne_simple_3_track_mx_st
 --- !u!1 &7143658631868101390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,7 +1150,7 @@ MonoBehaviour:
       Data2: 1281970270
       Data3: 2107981741
       Data4: 40040801
-    Path: event:/Dog_Munch_1_mono
+    Path: event:/ae_dog_much_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -1211,7 +1211,7 @@ MonoBehaviour:
       Data2: 1257976572
       Data3: 1655249561
       Data4: 1000056491
-    Path: event:/Dog_Whine_1_mono
+    Path: event:/ae_dog_whine_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -1272,7 +1272,7 @@ MonoBehaviour:
       Data2: 1107697157
       Data3: -1388833347
       Data4: 932242628
-    Path: event:/PLAYER_Out of bed_1_mono
+    Path: event:/ae_player_out_of_bed_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -1414,7 +1414,7 @@ MonoBehaviour:
       Data2: 1131320192
       Data3: 419882399
       Data4: 986961847
-    Path: event:/PLAYER_Throw Ball_1_mono
+    Path: event:/ae_player_ball_throw_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -1475,7 +1475,7 @@ MonoBehaviour:
       Data2: 1154505639
       Data3: -1787330628
       Data4: -513269510
-    Path: event:/Aura_1_mono
+    Path: event:/ae_aura_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -1536,7 +1536,7 @@ MonoBehaviour:
       Data2: 1281955697
       Data3: -208849268
       Data4: -322978744
-    Path: event:/Radio_1_mono
+    Path: event:/ae_radio_oneshot_m
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -1597,7 +1597,7 @@ MonoBehaviour:
       Data2: 1176665951
       Data3: 790683043
       Data4: -355704736
-    Path: event:/Dog_JumpHappy_1_mono
+    Path: event:/ae_dog_jump_happy_m
   Event: 
   PlayEvent: 0
   StopEvent: 0

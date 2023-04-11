@@ -2756,7 +2756,7 @@ MonoBehaviour:
       Data2: 1131320192
       Data3: 419882399
       Data4: 986961847
-    Path: event:/PLAYER_Throw Ball_1_mono
+    Path: event:/ae_player_ball_throw_m
   Event: 
   PlayEvent: 0
   StopEvent: 0

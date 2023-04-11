@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f3c4c053-7622-4039-bff1-8794ec25ac42}">
 		<property name="name">
-			<value>Plant Water_1_mono</value>
+			<value>ae_player_water_plant_m</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{98a257dc-1771-4c69-8c36-8df348bcbfec}">
 		<property name="name">
-			<value>Radio_1_mono</value>
+			<value>ae_radio_oneshot_m</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

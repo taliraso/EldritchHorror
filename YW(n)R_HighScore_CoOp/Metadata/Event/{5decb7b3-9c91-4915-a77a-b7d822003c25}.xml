@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5decb7b3-9c91-4915-a77a-b7d822003c25}">
 		<property name="name">
-			<value>Scream_3_mono</value>
+			<value>ae_scream_3_m</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

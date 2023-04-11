@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a60bf9ed-6637-4655-9cd9-93257c63f3a4}">
 		<property name="name">
-			<value>Week3_Mx</value>
+			<value>ne_simple_3_track_mx_st</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

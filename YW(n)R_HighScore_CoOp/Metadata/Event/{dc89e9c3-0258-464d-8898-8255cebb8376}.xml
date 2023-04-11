@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{dc89e9c3-0258-464d-8898-8255cebb8376}">
 		<property name="name">
-			<value>Making Food_1_mono</value>
+			<value>ae_player_making_food_m</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
