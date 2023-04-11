@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 259720916}
   - component: {fileID: 259720917}
   m_Layer: 0
-  m_Name: audioplayergrab
+  m_Name: FE_player_grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 314095329}
   - component: {fileID: 314095330}
   m_Layer: 0
-  m_Name: audioscream3
+  m_Name: FE_scream_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 889280996}
   - component: {fileID: 889280997}
   m_Layer: 0
-  m_Name: audioknock
+  m_Name: FE_player_knock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 1294047359}
   - component: {fileID: 1294047360}
   m_Layer: 0
-  m_Name: FE_dog_jump_low
+  m_Name: FE_dog_jump_scared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 7143658630629159123}
   - component: {fileID: 7143658630629159122}
   m_Layer: 0
-  m_Name: audiodooruse
+  m_Name: FE_door_use
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 7143658631180642072}
   - component: {fileID: 7143658631180642079}
   m_Layer: 0
-  m_Name: audiodogslurp
+  m_Name: FE_dog_slurp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -682,7 +682,7 @@ GameObject:
   - component: {fileID: 7143658631194800760}
   - component: {fileID: 7143658631194800767}
   m_Layer: 0
-  m_Name: audiobalconywind
+  m_Name: FE_balcony_wind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -743,7 +743,7 @@ GameObject:
   - component: {fileID: 7143658631399726451}
   - component: {fileID: 7143658631399726450}
   m_Layer: 0
-  m_Name: audioscream2
+  m_Name: FE_scream_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 7143658631470589369}
   - component: {fileID: 7143658631470589368}
   m_Layer: 0
-  m_Name: audioscream1
+  m_Name: FE_scream_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 7143658631538662031}
   - component: {fileID: 7143658631538662030}
   m_Layer: 0
-  m_Name: audiodogbark
+  m_Name: FE_dog_bark_happy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -979,7 +979,7 @@ GameObject:
   - component: {fileID: 7143658631677818884}
   - component: {fileID: 7143658631677818891}
   m_Layer: 0
-  m_Name: audiodoghowl
+  m_Name: FE_dog_howl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1111,7 +1111,7 @@ GameObject:
   - component: {fileID: 7143658631868101389}
   - component: {fileID: 7143658631868101388}
   m_Layer: 0
-  m_Name: audiodogmunch
+  m_Name: FE_dog_munch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1172,7 +1172,7 @@ GameObject:
   - component: {fileID: 7143658632041517697}
   - component: {fileID: 7143658632041517696}
   m_Layer: 0
-  m_Name: audiodogwhine
+  m_Name: FE_dog_whine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: 7143658632090099533}
   - component: {fileID: 7143658632090099532}
   m_Layer: 0
-  m_Name: audioplayeroutofbed
+  m_Name: FE_player_out_of_bed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1375,7 +1375,7 @@ GameObject:
   - component: {fileID: 7143658632193298393}
   - component: {fileID: 7143658632193298392}
   m_Layer: 0
-  m_Name: audioplayerthrowball
+  m_Name: FE_player_ball_throw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1436,7 +1436,7 @@ GameObject:
   - component: {fileID: 7143658632193302680}
   - component: {fileID: 7143658632193302687}
   m_Layer: 0
-  m_Name: audioaura
+  m_Name: FE_aura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1497,7 +1497,7 @@ GameObject:
   - component: {fileID: 7143658632436737721}
   - component: {fileID: 7143658632436737720}
   m_Layer: 0
-  m_Name: audioradioloop
+  m_Name: FE_radio_loop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1558,7 +1558,7 @@ GameObject:
   - component: {fileID: 7143658632447517227}
   - component: {fileID: 7143658632447517226}
   m_Layer: 0
-  m_Name: audiodogjump
+  m_Name: FE_dog_jump_happy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
