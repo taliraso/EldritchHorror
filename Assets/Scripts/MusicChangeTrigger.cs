@@ -8,6 +8,7 @@ public class MusicChangeTrigger : MonoBehaviour
 
     [SerializeField] private MusicParam valence;
 
+    //If using a collider to trigger music change
     //private void OnTriggerEnter2D(Collider2D collider)
     //{
     //    if (collider.tag.Equals("Player"))
