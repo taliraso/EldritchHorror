@@ -735,10 +735,10 @@ GameObject:
   m_Component:
   - component: {fileID: 112429998}
   - component: {fileID: 112429997}
-  - component: {fileID: 112429996}
   - component: {fileID: 112429999}
   - component: {fileID: 112430000}
   - component: {fileID: 112430001}
+  - component: {fileID: 112429996}
   m_Layer: 0
   m_Name: HallwayCamera
   m_TagString: MainCamera
@@ -746,14 +746,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!81 &112429996
-AudioListener:
+--- !u!114 &112429996
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112429995}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!20 &112429997
 Camera:
   m_ObjectHideFlags: 0
@@ -4063,9 +4068,9 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420029}
   m_Layer: 0
   m_Name: ApartmentCamera
   m_TagString: MainCamera
@@ -4073,14 +4078,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
+--- !u!114 &519420029
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!114 &519420030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5821,8 +5831,6 @@ MonoBehaviour:
   textBuildSpeed: 0.05
   isBuilding: 0
   extraRoom: 0.25
-  beepHigh: {fileID: 8300000, guid: 1d54021a299ca7845928025089307dd2, type: 3}
-  beepLow: {fileID: 8300000, guid: f1faa8447f847504b82686ffda0dda5c, type: 3}
   spawnStartingFade: 1
   startingFadeDuration: 2
   plantAlive: {fileID: 810476016}
@@ -10325,10 +10333,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1122288546}
   - component: {fileID: 1122288550}
-  - component: {fileID: 1122288549}
   - component: {fileID: 1122288548}
   - component: {fileID: 1122288547}
   - component: {fileID: 1122288551}
+  - component: {fileID: 1122288549}
   m_Layer: 0
   m_Name: RooftopCamera
   m_TagString: MainCamera
@@ -10428,14 +10436,19 @@ MonoBehaviour:
   creditsMin: -16.5
   creditsMax: 16.5
   creditsTime: 35
---- !u!81 &1122288549
-AudioListener:
+--- !u!114 &1122288549
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122288545}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!20 &1122288550
 Camera:
   m_ObjectHideFlags: 0
@@ -10601,9 +10614,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1134944141}
   - component: {fileID: 1134944139}
-  - component: {fileID: 1134944140}
   - component: {fileID: 1134944142}
   - component: {fileID: 1134944143}
+  - component: {fileID: 1134944140}
   m_Layer: 0
   m_Name: OtherApartmentCamera
   m_TagString: MainCamera
@@ -10654,14 +10667,19 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1134944140
-AudioListener:
+--- !u!114 &1134944140
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134944138}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!4 &1134944141
 Transform:
   m_ObjectHideFlags: 0
@@ -13608,10 +13626,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1441579316}
   - component: {fileID: 1441579315}
-  - component: {fileID: 1441579314}
   - component: {fileID: 1441579317}
   - component: {fileID: 1441579318}
   - component: {fileID: 1441579319}
+  - component: {fileID: 1441579314}
   m_Layer: 0
   m_Name: BalconyCamera
   m_TagString: MainCamera
@@ -13619,14 +13637,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!81 &1441579314
-AudioListener:
+--- !u!114 &1441579314
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441579313}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!20 &1441579315
 Camera:
   m_ObjectHideFlags: 0
