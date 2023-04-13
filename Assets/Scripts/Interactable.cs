@@ -5,11 +5,9 @@ using UnityEngine.Events;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
-using FMODUnity;
 
 public class Interactable : MonoBehaviour
 {
-
     [Header("Interactable Settings")]
     public bool isInteractable = true;
     //private bool PlayerinTrigger = false;
