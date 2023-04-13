@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7aa568ae-ea16-4b9c-a140-f8b04bd5b9d0}">
+		<property name="assetPath">
+			<value>SFX/DOG_Munch_1_mono.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.7692517006802722</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{edd4e991-88c5-44f4-b008-d5fe880ea382}</destination>
+		</relationship>
+	</object>
+</objects>
