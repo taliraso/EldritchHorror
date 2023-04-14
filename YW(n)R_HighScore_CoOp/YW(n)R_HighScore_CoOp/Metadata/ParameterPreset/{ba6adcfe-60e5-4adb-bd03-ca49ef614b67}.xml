@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{ba6adcfe-60e5-4adb-bd03-ca49ef614b67}">
+		<property name="name">
+			<value>LVL_INCREASE</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d87cab1b-9541-4e28-9989-50211a4fa1cf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d5cfa566-08f3-4def-8e9c-c457d5158c2a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d5cfa566-08f3-4def-8e9c-c457d5158c2a}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

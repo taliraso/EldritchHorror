@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{dd332cfb-6bd9-4816-af56-bf327f1606b4}">
+		<property name="assetPath">
+			<value>MUSIC/SUB HIT.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.294739229024943</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{edd4e991-88c5-44f4-b008-d5fe880ea382}</destination>
+		</relationship>
+	</object>
+</objects>
