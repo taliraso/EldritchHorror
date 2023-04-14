@@ -40,6 +40,16 @@ public class AudioManager : MonoBehaviour
         musicEventInstance.setParameterByName("valence", (float)valence);
     }
 
+    public void SetOptimismParam(OptimismParam optimism)
+    {
+        musicEventInstance.setParameterByName("optimism", (float)optimism);
+    }
+
+    public void SetLvlIncreaseParam(LvlParam lvl)
+    {
+        musicEventInstance.setParameterByName("Lvl_increase", (float)lvl);
+    }
+
     public void PlayOneShot(EventReference sound, Vector3 worldPos)
     {
         RuntimeManager.PlayOneShot(sound, worldPos);

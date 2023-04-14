@@ -1245,6 +1245,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 644715569}
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
+      propertyPath: nodes.Array.data[0].dialogueEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: nodes.Array.data[1].dialogueEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1263,6 +1267,10 @@ PrefabInstance:
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: onInteractionStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: GoToTransfrom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
+      propertyPath: nodes.Array.data[0].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: nodes.Array.data[1].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1296,6 +1304,10 @@ PrefabInstance:
       propertyPath: nodes.Array.data[3].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
+      propertyPath: nodes.Array.data[0].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1681802614}
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: nodes.Array.data[1].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1333,6 +1345,10 @@ PrefabInstance:
       value: DogControls, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
+      propertyPath: nodes.Array.data[0].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: nodes.Array.data[1].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -1363,6 +1379,10 @@ PrefabInstance:
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: nodes.Array.data[3].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
+      propertyPath: nodes.Array.data[0].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeOptimism
       objectReference: {fileID: 0}
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: nodes.Array.data[1].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1400,6 +1420,10 @@ PrefabInstance:
       propertyPath: onInteractionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 869067411}
+    - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
+      propertyPath: nodes.Array.data[0].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MusicChangeTrigger, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: nodes.Array.data[1].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FMODUnity.StudioEventEmitter, FMODUnity
@@ -1445,8 +1469,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
+      propertyPath: nodes.Array.data[0].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: On
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: onInteractionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
+      propertyPath: nodes.Array.data[0].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5135786769484161565, guid: 7f85c2d77e30d8d4293df13741337791, type: 3}
       propertyPath: nodes.Array.data[1].dialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5858,7 +5890,19 @@ MonoBehaviour:
       m_Calls: []
   onTransition:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1681802614}
+        m_TargetAssemblyTypeName: MusicChangeTrigger, Assembly-CSharp
+        m_MethodName: ChangeValence
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Hallway_Valence_MX
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &772972780
 BoxCollider2D:
   m_ObjectHideFlags: 0
