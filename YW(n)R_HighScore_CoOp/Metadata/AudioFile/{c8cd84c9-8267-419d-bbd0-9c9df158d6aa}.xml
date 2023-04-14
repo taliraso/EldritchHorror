@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c8cd84c9-8267-419d-bbd0-9c9df158d6aa}">
+		<property name="assetPath">
+			<value>MUSIC/End Apartment Offer 80bpm 5 bar loop 1 bar FMOD tranistion.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>18</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{edd4e991-88c5-44f4-b008-d5fe880ea382}</destination>
+		</relationship>
+	</object>
+</objects>
