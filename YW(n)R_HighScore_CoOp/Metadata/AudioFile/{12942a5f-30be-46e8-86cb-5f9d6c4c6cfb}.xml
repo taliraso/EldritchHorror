@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{12942a5f-30be-46e8-86cb-5f9d6c4c6cfb}">
+		<property name="assetPath">
+			<value>MUSIC/YWNR_Fetch_Loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>34.285714285714285</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{edd4e991-88c5-44f4-b008-d5fe880ea382}</destination>
+		</relationship>
+	</object>
+</objects>
