@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c5f02afe-e095-4ad6-81d8-cfd2ad7f8561}">
+		<property name="assetPath">
+			<value>CELLO 8.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.225782312925169</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{edd4e991-88c5-44f4-b008-d5fe880ea382}</destination>
+		</relationship>
+	</object>
+</objects>
