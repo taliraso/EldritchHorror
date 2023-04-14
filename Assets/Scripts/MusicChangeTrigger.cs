@@ -31,6 +31,10 @@ public class MusicChangeTrigger : MonoBehaviour
         {
             AudioManager.instance.SetMusicParam(MusicParam.Positive_Valence_MX);
         }
+        else if (string.Equals(valence, "Hallway_Valence_MX"))
+        {
+            AudioManager.instance.SetMusicParam(MusicParam.Hallway_Valence_MX);
+        }
         else Debug.LogError("Incorrect Music Change Trigger String");
         
     }
