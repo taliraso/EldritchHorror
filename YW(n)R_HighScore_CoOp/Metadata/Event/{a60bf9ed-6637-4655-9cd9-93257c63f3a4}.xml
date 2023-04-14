@@ -5,7 +5,7 @@
 			<value>ne_simple_3_track_mx_st</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8ed8be3b-1ad2-4c03-a6a2-3c21e837be4d}</destination>
